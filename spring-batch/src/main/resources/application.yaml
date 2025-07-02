@@ -1,0 +1,24 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: spring-batch
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xins_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 4311
+
+  batch:
+    jdbc:
+      initialize-schema: always
+    # 禁止 spring 自动执行batch任务，手动触发
+    job:
+      enabled: false
+
+mybatis:
+  type-aliases-package: com.xins.**.domain
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
