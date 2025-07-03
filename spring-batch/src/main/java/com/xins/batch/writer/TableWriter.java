@@ -1,6 +1,6 @@
 package com.xins.batch.writer;
 
-import com.xins.batch.domain.User;
+import com.xins.batch.bean.domain.User;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor;

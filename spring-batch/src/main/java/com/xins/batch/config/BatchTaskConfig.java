@@ -1,6 +1,6 @@
 package com.xins.batch.config;
 
-import com.xins.batch.domain.User;
+import com.xins.batch.bean.domain.User;
 import com.xins.batch.listener.JobCompletionListener;
 import com.xins.batch.processor.UserItemProcessor;
 import lombok.extern.slf4j.Slf4j;

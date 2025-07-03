@@ -1,6 +1,6 @@
 package com.xins.batch.service;
 
-import com.xins.batch.domain.User;
+import com.xins.batch.bean.domain.User;
 import com.xins.batch.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

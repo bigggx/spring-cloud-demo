@@ -1,4 +1,4 @@
-package com.xins.batch.domain;
+package com.xins.batch.bean.domain;
 
 import lombok.Data;
 

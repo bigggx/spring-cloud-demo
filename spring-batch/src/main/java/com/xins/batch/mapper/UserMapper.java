@@ -1,6 +1,6 @@
 package com.xins.batch.mapper;
 
-import com.xins.batch.domain.User;
+import com.xins.batch.bean.domain.User;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.cursor.Cursor;
 import org.apache.ibatis.mapping.ResultSetType;

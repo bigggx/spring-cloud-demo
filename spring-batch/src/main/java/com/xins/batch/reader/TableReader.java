@@ -1,12 +1,11 @@
 package com.xins.batch.reader;
 
-import com.xins.batch.domain.User;
+import com.xins.batch.bean.domain.User;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.batch.MyBatisCursorItemReader;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 /**
  * @Author xinsong
