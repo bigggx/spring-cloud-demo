@@ -14,7 +14,7 @@
     </modules>
     <groupId>com.xins</groupId>
     <artifactId>spring-cloud-demo</artifactId>
-    <version>${spring-cloud-demo.version}</version>
+    <version>1.0.0</version>
     <name>spring-cloud-demo</name>
     <description>spring-cloud-demo</description>
     <url/>
@@ -36,7 +36,6 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-cloud-demo.version>1.0.0</spring-cloud-demo.version>
         <spring-boot-parent.version>3.5.3</spring-boot-parent.version>
         <spring-cloud-alibaba.version>2023.0.1.0</spring-cloud-alibaba.version>
         <spring-cloud.version>2023.0.2</spring-cloud.version>
