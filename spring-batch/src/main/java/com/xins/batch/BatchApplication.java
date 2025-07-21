@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.xins.**.mapper")
 public class BatchApplication {
     public static void main(String[] args) {
-        System.out.println("启动成功");
         SpringApplication.run(BatchApplication.class, args);
+        System.out.println("springbatch服务启动成功");
     }
 }
