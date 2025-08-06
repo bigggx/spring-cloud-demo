@@ -1,0 +1,17 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: spring-flink
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xins_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 4311
+
+mybatis:
+  type-aliases-package: com.xins.**.domain
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

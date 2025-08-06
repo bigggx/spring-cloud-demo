@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-batch</module>
+        <module>spring-flink</module>
     </modules>
     <groupId>com.xins</groupId>
     <artifactId>spring-cloud-demo</artifactId>
